@@ -15,18 +15,18 @@
   
 
   
-  <h1 🚀 Projects- </h1>
+ ###  🚀 Projects- 
    
-  <h2> Web App Clones using HTML & CSS <br>
+  ### Web App Clones using HTML & CSS 
     
-   C Programming Practice Programs <h2>
+  ### C Programming Practice Programs 
 
    
    
   ### 🔗 Connect with Me- 
   
   ### GitHub: https://github.com/sanjeetkumar989159-hub 
-  ###  www.linkedin.com/in/sanjeet-kumara-706597s---
+  ###  www.linkedin.com/in/sanjeet-kumar-706597s---
 
   
   ⭐ **Always learning, building, and improving step by step.**
