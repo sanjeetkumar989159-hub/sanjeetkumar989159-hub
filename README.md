@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Shubham Kumar</h1>
+<h1 align="center">Hi 👋, I'm Sanjeet Kumar</h1>
 <h3 align="center">Learning the craft, one commit at a time.</h3>
 
 ---
@@ -13,7 +13,7 @@
 
 ## 📊 Visitor Count
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shubham21-star&label=Profile%20views&color=blueviolet&style=flat" alt="profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=sanjeetkumar989159-hub&label=Profile%20views&color=blueviolet&style=flat" alt="profile views"/>
 </p>
 
 ---
@@ -42,12 +42,12 @@
 
 ## 📈 GitHub Activity
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shubham21-star&theme=react-dark"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjeetkumar989159-hub&theme=react-dark"/>
 </p>
 
 ---
 
 ## 🔗 Connect with Me
 <p align="center">
-  <a href="https://github.com/shubham21-star"><img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"></a>
+  <a href="https://github.com/sanjeetkumar989159-hub"><img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"></a>
 </p>
