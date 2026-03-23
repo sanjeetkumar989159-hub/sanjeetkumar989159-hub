@@ -23,7 +23,7 @@
   <img src="https://skillicons.dev/icons?i=c,python,html,css,vscode,github" />
 </p>
 
-- **Core:** C, Python  
+- **Core:** C,C++, Python  
 - **Basics:** HTML, CSS  
 - **Tools:** VS Code, GitHub, Google Colab  
 
