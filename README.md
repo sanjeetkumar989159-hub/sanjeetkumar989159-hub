@@ -1,46 +1,53 @@
-<h1 align="center">Hi 👋, I'm Sanjeet kumar</h1>
-<h3 align="center">B.Tech student passionate about software development Computer Science undergraduate | Developer in progress B.Tech student exploring technology and innovation</h3>- 🌱 I’m currently learning **Btech computer science**<h3 align="left">Connect with me:</h3>
-<p align="left"><a href="https://linkedin.com/in/sanjeet-kumar-0a3a92397" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sanjeet-kumar-0a3a92397" height="30" width="40" /></a>
-  <a href="https://instagram.com/arya_sumit007" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="arya_sumit007" height="30" width="40" /></a></p>
-    <h3 align="left">Languages and Tools:</h3>
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a>
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <br>
+<h1 align="center">Hi 👋, I'm Shubham Kumar</h1>
+<h3 align="center">Learning the craft, one commit at a time.</h3>
 
+---
 
-  
+## 🎯 Short-Term Goals
+- 🔹 Strengthen C fundamentals  
+- 🔹 Write clean, readable Python code  
+- 🔹 Finish and document small projects  
+- 🔹 Build discipline through daily commits  
 
-  
- ###  🚀 Projects- 
-   
-  ### Web App Clones using HTML & CSS 
-    
-  ### C Programming Practice Programs 
+---
 
-   
-   
-  ### 🔗 Connect with Me- 
-  
-  ### GitHub:- https://github.com/sanjeetkumar989159-hub 
-  ### linkdin:- www.linkedin.com/in/sanjeet-kumar-706597s---
+## 📊 Visitor Count
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shubham21-star&label=Profile%20views&color=blueviolet&style=flat" alt="profile views"/>
+</p>
 
-  
-  ⭐ **Always learning, building, and improving step by step.**
+---
 
+## 🛠️ Tech Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,python,html,css,vscode,github" />
+</p>
 
+- **Core:** C, Python  
+- **Basics:** HTML, CSS  
+- **Tools:** VS Code, GitHub, Google Colab  
 
+---
 
+## 📂 Featured Projects
 
-  
+| 🚀 Project | 🧩 Description | 📊 Status |
+|-----------|--------------|----------|
+| 🌐 Portfolio Website | Static portfolio using HTML & CSS | 🟡 In Progress |
+| 🧮 Calculator App | JavaScript calculator (basic operations) | 🟡 In Progress |
+| 🐍 Python Mini Projects | Beginner Python logic programs | 🟢 Ongoing |
+| 🎓 Student Management System | C-based console project (file handling) | 🔵 Planned |
 
+---
 
+## 📈 GitHub Activity
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shubham21-star&theme=react-dark"/>
+</p>
 
-    
+---
 
-    
-
-
-    
+## 🔗 Connect with Me
+<p align="center">
+  <a href="https://github.com/shubham21-star"><img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"></a>
+</p>
