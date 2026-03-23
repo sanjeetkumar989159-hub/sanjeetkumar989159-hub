@@ -20,7 +20,7 @@
 
 ## 🛠️ Tech Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,python,html,css,vscode,github" />
+  <img src="https://skillicons.dev/icons?i=c,C++,python,html,css,vscode,github" />
 </p>
 
 - **Core:** C,C++, Python  
