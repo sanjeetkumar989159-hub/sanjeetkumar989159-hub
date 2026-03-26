@@ -58,8 +58,10 @@ I am a dedicated engineering student with a strong focus on building responsive 
 </div>
 ## 🐍 Contribution Graph
 
+## 🐍 Contribution Graph
+
 <p align="center">
-  <img src="https://github.com/sanjeetkumar989159-hub/sanjeetkumar989159-hub/blob/output/github-contribution-grid-snake.svg" alt="snake graph" />
+  <img src="https://github.com/sanjeetkumar989159-hub/sanjeetkumar989159-hub/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
 ---
 
