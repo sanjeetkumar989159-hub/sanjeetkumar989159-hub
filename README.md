@@ -56,7 +56,11 @@ I am a dedicated engineering student with a strong focus on building responsive 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjeetkumar989159-hub&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
+## 🐍 Contribution Graph
 
+<p align="center">
+  <img src="https://github.com/sanjeetkumar989159-hub/sanjeetkumar989159-hub/blob/output/github-contribution-grid-snake.svg" alt="snake graph" />
+</p>
 ---
 
 <p align="center">
