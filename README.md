@@ -1,53 +1,64 @@
-<h1 align="center">Hi 👋, I'm Sanjeet Kumar</h1>
-<h3 align="center">Learning the craft, one commit at a time.</h3>
+<h1 align="center">Hi there, I'm Sanjeet Kumar 👋</h1>
+<h3 align="center">A Passionate Frontend Web Developer & Engineering Student</h3>
 
----
-
-## 🎯 Short-Term Goals
-- 🔹 Strengthen C fundamentals  
-- 🔹 Write clean, readable Python code  
-- 🔹 Finish and document small projects  
-- 🔹 Build discipline through daily commits  
-
----
-
-## 📊 Visitor Count
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sanjeetkumar989159-hub&label=Profile%20views&color=blueviolet&style=flat" alt="profile views"/>
+  <a href="https://github.com/sanjeetkumar989159-hub">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0E75B6&center=true&vCenter=true&width=500&lines=Engineering+Student;Frontend+Web+Developer;Always+Learning+%26+Coding" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/sanjeet-kumar-706597s" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://www.instagram.com/sanjeet_ydv077" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=sanjeetkumar989159-hub&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
 </p>
 
 ---
 
-## 🛠️ Tech Stack
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,C++,python,html,css,vscode,github" />
-</p>
+## 🚀 About Me & Goals
 
-- **Core:** C,C++, Python  
-- **Basics:** HTML, CSS  
-- **Tools:** VS Code, GitHub, Google Colab  
+I am a dedicated engineering student with a strong focus on building responsive and user-friendly web applications. I believe in writing clean, efficient code and improving my discipline through daily coding practice.
 
----
-
-## 📂 Featured Projects
-
-| 🚀 Project | 🧩 Description | 📊 Status |
-|-----------|--------------|----------|
-| 🌐 Portfolio Website | Static portfolio using HTML & CSS | 🟡 In Progress |
-| 🧮 Calculator App | JavaScript calculator (basic operations) | 🟡 In Progress |
-| 🐍 Python Mini Projects | Beginner Python logic programs | 🟢 Ongoing |
-| 🎓 Student Management System | C-based console project (file handling) | 🔵 Planned |
+- 🔭 **Currently focusing on:** Strengthening fundamentals in **C, Python, and JavaScript**.
+- 🌱 **Learning:** Modern Frontend Development and writing clean, efficient code.
+- 🎯 **Short-Term Goals:** - Build, document, and deploy small-to-medium projects.
+  - Maintain a strong daily GitHub commit streak.
+- ⚡ **Quote:** *"Learning the craft, one commit at a time."*
 
 ---
 
-## 📈 GitHub Activity
+## 🛠️ Tech Stack & Tools
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjeetkumar989159-hub&theme=react-dark"/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,cpp,python,html,css,js,github,git,vscode" alt="My Skills" />
+  </a>
 </p>
 
 ---
 
-## 🔗 Connect with Me
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sanjeetkumar989159-hub&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="195" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sanjeetkumar989159-hub&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="195" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjeetkumar989159-hub&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</div>
+
+---
+
 <p align="center">
-  <a href="https://github.com/sanjeetkumar989159-hub"><img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"></a>
+  <i>Let's connect and build something amazing together! 🤝</i>
 </p>
