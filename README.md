@@ -14,6 +14,9 @@
   <a href="https://www.instagram.com/sanjeet_ydv077" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
   </a>
+  <a href="mailto:sumitkumar989159@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
 </p>
 
 <p align="center">
@@ -57,12 +60,7 @@ I am a dedicated engineering student with a strong focus on building responsive 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjeetkumar989159-hub&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
-
-## 🐍 Contribution Graph
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sanjeetkumar989159-hub/sanjeetkumar989159-hub/output/github-contribution-grid-snake.svg" />
-</p>
+---
 
 <p align="center">
   <i>Let's connect and build something amazing together! 🤝</i>
