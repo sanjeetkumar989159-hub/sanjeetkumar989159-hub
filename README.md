@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Sanjeet Kumar</h1>
-<h3 align="center">🚀 Frontend Developer | 🎓 Engineering Student | 💡 Lifelong Learner</h3>
+<h3 align="center">🎓 Engineering Student | 💻 Programming Enthusiast | 💡 Lifelong Learner</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=650&lines=Frontend+Developer;Building+Modern+Web+Apps;Clean+UI+%26+Code+Lover;Always+Learning+🚀" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=650&lines=Coding+Enthusiast;Solving+Problems+%26+Learning;Always+Improving+🚀" />
 </p>
 
 <p align="center">
@@ -13,41 +13,52 @@
 
 ## 🧑‍💻 About Me
 
-- 🎓 Engineering Student passionate about **Web Development**
-- 💻 I build **clean, responsive & user-friendly UI**
-- 📚 Currently learning **JavaScript, Python & DSA**
-- ⚡ Believe in: **Consistency > Motivation**
-- 🧠 Improving problem-solving skills daily
+- 🎓 Engineering student passionate about programming & problem-solving  
+- 📚 Improving skills in **C, Python & Java**  
+- ⚡ Believe in: **Consistency > Motivation**  
+- 🧠 Focused on learning and building small projects  
 
 ---
 
 ## 🎯 Current Goals
 
-- 🚀 Build real-world projects  
+- 🚀 Build small-to-medium coding projects  
 - 🔥 Maintain daily GitHub streak  
-- 🌐 Deploy projects online  
-- 💼 Become job-ready developer  
+- 📈 Improve logical thinking and coding skills  
+- 💼 Become a skilled programmer ready for internships  
 
 ---
 
 ## 🌟 Featured Projects
 
 ### 🎓 College Event Management System
-💡 A platform to manage and organize college events efficiently  
-🔗 *(Add your project link here)*
+💡 A simple system to manage college events efficiently  
+<p align="center">
+  <a href="PROJECT_LINK_HERE">
+    <img src="PROJECT_IMAGE_LINK_HERE" width="400px" alt="College Event Management Preview"/>
+  </a>
+</p>
 
 ---
 
-### 🌐 Frontend Project
-💡 Responsive UI project using HTML, CSS & JavaScript  
-🔗 *(Add your project link here)*
+### 🖥️ Programming Project
+💡 Small project built using **Python / C / Java**  
+<p align="center">
+  <a href="PROJECT_LINK_HERE">
+    <img src="PROJECT_IMAGE_LINK_HERE" width="400px" alt="Programming Project Preview"/>
+  </a>
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Skills
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,c,cpp,git,github,vscode" />
+  <img src="https://img.shields.io/badge/C-Intermediate-blue?style=for-the-badge&logo=c"/>
+  <img src="https://img.shields.io/badge/C++-Intermediate-lightblue?style=for-the-badge&logo=c%2B%2B"/>
+  <img src="https://img.shields.io/badge/Python-Intermediate-yellow?style=for-the-badge&logo=python"/>
+  <img src="https://img.shields.io/badge/Java-Beginner-red?style=for-the-badge&logo=java"/>
+  <img src="https://img.shields.io/badge/Git-GitHub-black?style=for-the-badge&logo=github"/>
 </p>
 
 ---
@@ -65,27 +76,6 @@
 
 ---
 
-## 🧠 Coding Practice
-
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Baloo" />
-</p>
-
----
-
-
-
-- 💻 Frontend Development (HTML, CSS, JS)  
-- ⚡ Quick Learner & Consistent  
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/sanjeet-kumar-706597s">
-    <img src="https://img.shields.io/badge/Hire%20Me-LinkedIn-blue?style=for-the-badge&logo=linkedin"/>
-  </a>
-</p>
-
----
-
 ## 🐍 Contribution Snake
 
 <p align="center">
@@ -99,5 +89,6 @@
 ```diff
 + Code 💻
 + Learn 📚
-+ Build 🚀
++ Solve Problems 🧩
++ Build Projects 🚀
 + Repeat 🔁
