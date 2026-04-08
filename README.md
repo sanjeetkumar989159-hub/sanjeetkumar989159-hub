@@ -54,11 +54,7 @@
 ## 🛠️ Skills
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C-Intermediate-blue?style=for-the-badge&logo=c"/>
-  <img src="https://img.shields.io/badge/C++-Intermediate-lightblue?style=for-the-badge&logo=c%2B%2B"/>
-  <img src="https://img.shields.io/badge/Python-Intermediate-yellow?style=for-the-badge&logo=python"/>
-  <img src="https://img.shields.io/badge/Java-Beginner-red?style=for-the-badge&logo=java"/>
-  <img src="https://img.shields.io/badge/Git-GitHub-black?style=for-the-badge&logo=github"/>
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,java,git,github" height="50"/>
 </p>
 
 ---
@@ -74,13 +70,8 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjeetkumar989159-hub&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
----
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sanjeetkumar989159-hub/sanjeetkumar989159-hub/output/github-contribution-grid-snake.svg" />
-</p>
+🌐 Connect With Me
+<p align="center"> <a href="https://www.linkedin.com/in/sanjeet-kumar-706597s"> <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/> </a> <a href="mailto:sanjeetkumar@example.com"> <img src="https://img.shields.io/badge/Email-Sanjeet-red?style=for-the-badge&logo=gmail"/> </a> <a href="https://www.instagram.com/sanjeet_ydv077"> <img src="https://img.shields.io/badge/Instagram-Follow-pink?style=for-the-badge&logo=instagram"/> </a> <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME"> <img src="https://img.shields.io/badge/LeetCode-Practice-orange?style=for-the-badge&logo=leetcode"/> </a> <a href="https://www.hackerrank.com/YOUR_HACKERRANK_USERNAME"> <img src="https://img.shields.io/badge/HackerRank-Practice-green?style=for-the-badge&logo=hackerrank"/> </a> </p>
 
 ---
 
