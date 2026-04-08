@@ -70,11 +70,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjeetkumar989159-hub&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
-## 🐍 GitHub Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sanjeetkumar989159-hub&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="100%" alt="GitHub Contribution Graph"/>
-</p>
+<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjeetkumar989159-hub&theme=tokyonight&hide_border=true&area=true" alt="Contribution Graph" width="100%" /> </div>
 
 ## 🌐 Connect With Me
 
