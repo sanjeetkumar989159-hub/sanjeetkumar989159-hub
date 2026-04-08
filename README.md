@@ -70,10 +70,10 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjeetkumar989159-hub&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
-## 🐍 Contribution Snake
+## 🐍 GitHub Contribution Graph
 
 <p align="center">
-  <img src="output/github-contribution-grid-snake.svg" width="100%" alt="GitHub Contribution Snake"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=sanjeetkumar989159-hub&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="100%" alt="GitHub Contribution Graph"/>
 </p>
 
 ## 🌐 Connect With Me
