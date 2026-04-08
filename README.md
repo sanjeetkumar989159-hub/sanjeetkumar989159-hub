@@ -70,12 +70,11 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjeetkumar989159-hub&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
-## 🐍 GitHub Contribution Graph
+## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=sanjeetkumar989159-hub&theme=tokyonight&hide_border=true&area=true" width="100%" alt="GitHub Contribution Graph"/>
+  <img src="output/github-contribution-grid-snake.svg" width="100%" alt="GitHub Contribution Snake"/>
 </p>
-
 
 ## 🌐 Connect With Me
 
