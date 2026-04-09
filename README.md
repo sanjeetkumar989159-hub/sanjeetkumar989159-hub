@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Hi+👋,+I'm+Sanjeet+Kumar; +🎓Engineering+Student+%7C+💻+Programming+Enthusiast+%7C+💡+Lifelong+Learner" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=1000&color=0E75B6&center=true&vCenter=true&width=1000&lines=Hi+I'm+Sanjeet+Kumar;Engineering+Student;Programming+Enthusiast;Lifelong+Learner" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2FF,100:0077ff&height=120&section=header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0E75B6,100:4F9CF9&height=120&section=header"/>
 </p>
 
 <p align="center">
@@ -54,7 +54,7 @@
 </p>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjeetkumar989159-hub&theme=tokyonight&hide_border=true&hide_border=true&area=true" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjeetkumar989159-hub&theme=tokyonight&hide_border=true&area=true" width="100%" />
 </div>
 
 ---
@@ -63,15 +63,15 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sanjeet-kumar-706597s" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" height="50"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0E75B6?style=for-the-badge&logo=linkedin&logoColor=white" height="50"/>
   </a>
 
   <a href="mailto:sanjeetkumar@example.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-Sanjeet-red?style=for-the-badge&logo=gmail&logoColor=white" height="50"/>
+    <img src="https://img.shields.io/badge/Email-Sanjeet-0E75B6?style=for-the-badge&logo=gmail&logoColor=white" height="50"/>
   </a>
 
   <a href="https://www.instagram.com/sanjeet_ydv077" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-Follow-pink?style=for-the-badge&logo=instagram&logoColor=white" height="50"/>
+    <img src="https://img.shields.io/badge/Instagram-Follow-0E75B6?style=for-the-badge&logo=instagram&logoColor=white" height="50"/>
   </a>
 </p>
 
@@ -81,11 +81,11 @@
 
 <p align="center">
   <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-Practice-orange?style=for-the-badge&logo=leetcode&logoColor=white" height="50"/>
+    <img src="https://img.shields.io/badge/LeetCode-Practice-0E75B6?style=for-the-badge&logo=leetcode&logoColor=white" height="50"/>
   </a>
 
   <a href="https://www.hackerrank.com/YOUR_HACKERRANK_USERNAME" target="_blank">
-    <img src="https://img.shields.io/badge/HackerRank-Practice-green?style=for-the-badge&logo=hackerrank&logoColor=white" height="50"/>
+    <img src="https://img.shields.io/badge/HackerRank-Practice-0E75B6?style=for-the-badge&logo=hackerrank&logoColor=white" height="50"/>
   </a>
 </p>
 
