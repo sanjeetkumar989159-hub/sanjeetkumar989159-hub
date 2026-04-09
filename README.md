@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Hi+👋,+I'm+Sanjeet+Kumar;🎓+Engineering+Student+|+💻+Programming+Enthusiast+|+💡+Lifelong+Learner" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Hi+👋,+I'm+Sanjeet+Kumar;🎓+Engineering+Student+%7C+💻+Programming+Enthusiast+%7C+💡+Lifelong+Learner" />
 </p>
 
 <p align="center">
@@ -54,7 +54,7 @@
 </p>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjeetkumar989159-hub&theme=tokyonight&hide_border=true&area=true" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjeetkumar989159-hub&theme=tokyonight&hide_border=true&hide_border=true&area=true" width="100%" />
 </div>
 
 ---
