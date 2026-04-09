@@ -1,8 +1,5 @@
-<h1 align="center">Hi 👋, I'm Sanjeet Kumar</h1>
-<h3 align="center">🎓 Engineering Student | 💻 Programming Enthusiast | 💡 Lifelong Learner</h3>
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=Coding+Enthusiast;Problem+Solver;Always+Learning+🚀;Future+Software+Developer;Consistency+%3E+Motivation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Hi+👋,+I'm+Sanjeet+Kumar;🎓+Engineering+Student+|+💻+Programming+Enthusiast+|+💡+Lifelong+Learner" />
 </p>
 
 <p align="center">
