@@ -16,11 +16,11 @@
 
 <img align="right" alt="coding" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
-- 🎓 Engineering Student  
-- 💡 Love solving real-world problems  
-- 📚 Learning **C | Python | Java**  
-- ⚡ Motto: **Consistency > Motivation**  
-- 🚀 Focused on becoming job-ready developer  
+* 🎓 Engineering Student
+* 💡 Love solving real-world problems
+* 📚 Learning **C | Python | Java**
+* ⚡ Motto: **Consistency > Motivation**
+* 🚀 Focused on becoming job-ready developer
 
 ---
 
@@ -100,3 +100,104 @@ A[💡 Learn] --> B[💻 Code]
 B --> C[🧩 Solve]
 C --> D[🚀 Build]
 D --> A
+```
+
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=1800&pause=700&color=00FFAA&center=true&vCenter=true&width=700&lines=Learn+→+Code+→+Build+→+Repeat+🔁;Consistency+is+the+Key+🔥;Never+Stop+Learning+📚" />
+</p>
+
+<img align="right" width="260" src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif"/>
+
+* 🔥 Currently working on improving **DSA & Logic Building**
+* 🚀 Exploring **real-world project development**
+* 🎯 Goal: Crack my **first tech internship**
+* 💻 Daily target: **Code + Learn + Build**
+
+<br clear="both"/>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Code-Everyday-00F7FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Build-Projects-0066FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Never-GiveUp-00F7FF?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
+---
+
+## 📊 Advanced GitHub Insights
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sanjeetkumar989159-hub&theme=tokyonight"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sanjeetkumar989159-hub&theme=tokyonight&utcOffset=5.5"/>
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=sanjeetkumar989159-hub&theme=algolia&no-frame=true&row=1&column=6"/>
+</p>
+
+---
+
+## 🎯 Weekly Dev Cycle
+
+<p align="center">
+
+```mermaid
+graph TD;
+Mon[📘 Learn] --> Tue[💻 Code]
+Tue --> Wed[🧠 Practice]
+Wed --> Thu[🚀 Build]
+Thu --> Fri[🐛 Debug]
+Fri --> Sat[📊 Optimize]
+Sat --> Sun[🔁 Repeat]
+```
+
+</p>
+
+---
+
+## 🎮 Fun Dev Zone
+
+<p align="center">
+  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="250"/>
+  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="250"/>
+</p>
+
+---
+
+## 💡 Random Dev Quote
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=00FFAA&center=true&vCenter=true&width=800&lines=Code+is+like+humor...When+you+have+to+explain+it,+it’s+bad.;First,+solve+the+problem.+Then,+write+the+code.;Programs+must+be+written+for+people+to+read." />
+</p>
+
+---
+
+## 🧑‍💻 Dev Progress
+
+<p align="center">
+
+```diff
+🚀 DSA Skills        █████████████░░░░ 70%
+💻 Development       ████████████░░░░░ 65%
+🧠 Problem Solving   ██████████████░░░ 75%
+🔥 Consistency       ████████████████░ 85%
+```
+
+</p>
+
+---
+
+## 🏁 Ultimate Footer
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0066FF&height=120&section=footer&animation=fadeIn"/>
+</p>
