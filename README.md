@@ -110,7 +110,7 @@ D --> A
 
 <img align="right" width="260" src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif"/>
 
-* 🔥 Currently working on improving **DSA & Logic Building**
+* 🔥 Currently working on improving **Logic Building**
 * 🚀 Exploring **real-world project development**
 * 🎯 Goal: Crack my **first tech internship**
 * 💻 Daily target: **Code + Learn + Build**
@@ -138,10 +138,17 @@ D --> A
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 GitHub Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sanjeetkumar989159-hub&theme=algolia&no-frame=true&row=1&column=6"/>
+  <img src="https://img.shields.io/badge/Commits-Active-00F7FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Profile-Optimized-0066FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Focus-Consistency-00F7FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Learning-0066FF?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sanjeetkumar989159-hub&theme=tokyonight"/>
 </p>
 
 ---
@@ -186,10 +193,10 @@ Sat --> Sun[🔁 Repeat]
 <p align="center">
 
 ```diff
-🚀 DSA Skills        █████████████░░░░ 70%
 💻 Development       ████████████░░░░░ 65%
 🧠 Problem Solving   ██████████████░░░ 75%
 🔥 Consistency       ████████████████░ 85%
+🚀 Growth            █████████████░░░░ 70%
 ```
 
 </p>
