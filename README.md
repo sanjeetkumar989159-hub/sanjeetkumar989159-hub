@@ -1,22 +1,27 @@
 ---
 
-## ⚡ Dynamic Developer Vibes
+## 🧠 Daily Dev Motivation
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=1800&pause=700&color=00FFAA&center=true&vCenter=true&width=800&lines=Eat+Sleep+Code+Repeat+🔁;Debugging+Life+One+Bug+At+A+Time+🐛;Dream+Big+Code+Bigger+🚀" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
 </p>
 
 ---
 
-## 🧠 Coding Activity Snake 🐍
+## 📈 Profile Growth Tracker
 
 <p align="center">
-  <img src="https://github.com/sanjeetkumar989159-hub/sanjeetkumar989159-hub/blob/output/github-contribution-grid-snake.svg" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sanjeetkumar989159-hub&theme=tokyonight"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sanjeetkumar989159-hub&theme=tokyonight"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sanjeetkumar989159-hub&theme=tokyonight"/>
 </p>
 
 ---
 
-## ⏳ Coding Time Stats
+## ⌛ Weekly Coding Breakdown
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@sanjeet1234&theme=tokyonight&hide_border=true"/>
@@ -24,34 +29,24 @@
 
 ---
 
-## 🏅 Achievements & Badges
+## 🧩 Fun Dev GIF
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Consistency-🔥-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Focus-💡-brightgreen?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Goal-Internship%20Ready-ff69b4?style=for-the-badge"/>
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="300"/>
 </p>
 
 ---
 
-## 💻 Visitor Animation
+## 🎮 Coding Mode ON
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=23&duration=1800&pause=700&color=00F7FF&center=true&vCenter=true&width=800&lines=System.out.println(%22Hello+World%22);while(true)+%7B+code();+learn();+%7D;No+Limits+🚀" />
 </p>
 
 ---
 
-## 🎵 Coding Mood
+## 🏁 Final Touch
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2000&pause=800&color=F7B801&center=true&vCenter=true&width=700&lines=LoFi+Music+🎧+%2B+Coding+💻=Heaven;Late+Night+Debugging+🌙;Coffee+☕+Powered+Developer" />
-</p>
-
----
-
-## 🔥 Extra Dev Quote
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2200&pause=1000&color=FF6EC7&center=true&vCenter=true&width=900&lines=Code+Never+Lies+💯;Bugs+Are+Proof+That+You+Are+Trying+🐛;Stay+Consistent+Stay+Winning+🔥" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0066FF&height=100&section=footer"/>
 </p>
