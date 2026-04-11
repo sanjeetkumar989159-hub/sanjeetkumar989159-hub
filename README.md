@@ -1,4 +1,12 @@
 <p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=1800&pause=600&color=00F7FF&center=true&vCenter=true&width=1000&lines=SANJEET+KUMAR;SOFTWARE+DEVELOPER+IN+PROGRESS;BUILDING+THE+FUTURE+🚀" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:0066FF&height=120&section=header&text=CODE.+CREATE.+CONQUER.&fontSize=30&fontColor=ffffff&animation=blinking"/>
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2000&pause=700&color=00F7FF&center=true&vCenter=true&width=1000&lines=Hey+👋+I'm+Sanjeet+Kumar;💻+Future+Software+Developer;🚀+Passionate+Programmer;🔥+Building+My+Dream+Career;📚+Learning+Every+Day" />
 </p>
 
@@ -22,12 +30,18 @@
 * ⚡ Motto: **Consistency > Motivation**
 * 🚀 Focused on becoming job-ready developer
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Learning%20%F0%9F%93%9A-00F7FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Focus-Development-0066FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Goal-Internship%20Ready-00F7FF?style=for-the-badge"/>
+</p>
+
 ---
 
 ## 🎯 Current Mission
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2000&pause=800&color=F7B801&center=true&vCenter=true&width=700&lines=Building+Real+Projects;Maintaining+GitHub+Streak;Improving+DSA+Skills;Getting+Internship+Ready" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2000&pause=800&color=F7B801&center=true&vCenter=true&width=700&lines=Building+Real+Projects;Maintaining+GitHub+Streak;Improving+Logic+Skills;Getting+Internship+Ready" />
 </p>
 
 ---
@@ -123,10 +137,6 @@ D --> A
   <img src="https://img.shields.io/badge/Never-GiveUp-00F7FF?style=for-the-badge"/>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
 ---
 
 ## 📊 Advanced GitHub Insights
@@ -145,10 +155,6 @@ D --> A
   <img src="https://img.shields.io/badge/Profile-Optimized-0066FF?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Focus-Consistency-00F7FF?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Status-Learning-0066FF?style=for-the-badge"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sanjeetkumar989159-hub&theme=tokyonight"/>
 </p>
 
 ---
@@ -193,18 +199,26 @@ Sat --> Sun[🔁 Repeat]
 <p align="center">
 
 ```diff
-💻 Development       ████████████░░░░░ 65%
-🧠 Problem Solving   ██████████████░░░ 75%
-🔥 Consistency       ████████████████░ 85%
-🚀 Growth            █████████████░░░░ 70%
+💻 Development       ███████████░░ 62%
+🧠 Problem Solving   ███████████████░ 72%
+🔥 Consistency       ████████████████78%
+🚀 Growth            ███████████████░░ 72%
 ```
 
 </p>
 
 ---
 
-## 🏁 Ultimate Footer
+## ⚡ Keep Coding
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0066FF&height=120&section=footer&animation=fadeIn"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=26&duration=2000&pause=800&color=00F7FF&center=true&vCenter=true&width=900&lines=Thanks+For+Visiting+🙏;Keep+Learning+📚;Keep+Building+🚀;See+You+Soon+👋" />
+</p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="200"/>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0066FF&height=140&section=footer&animation=twinkling"/>
 </p>
