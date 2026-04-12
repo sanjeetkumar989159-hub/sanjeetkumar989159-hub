@@ -64,18 +64,14 @@
 
 ## 📊 GitHub Stats
 
-## 📊 GitHub Stats
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sanjeetkumar989159-hub&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF" height="180"/>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=sanjeetkumar989159-hub&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF" height="180"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=sanjeetkumar989159-hub&theme=react&hide_border=true&background=0D1117&ring=00F7FF&fire=00F7FF" height="180"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/sanjeetkumar989159-hub?style=for-the-badge&color=00F7FF&label=Total%20Stars"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjeetkumar989159-hub&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=00F7FF"/>
 </p>
-
 
 ---
 
@@ -225,4 +221,4 @@ Sat --> Sun[🔁 Repeat]
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0066FF&height=140&section=footer&animation=twinkling"/>
-</p> 
+</p> stats me mere star count nhi ho rha hai
