@@ -142,8 +142,8 @@ D --> A
 ## 📊 Advanced GitHub Insights
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sanjeetkumar989159-hub&theme=tokyonight"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sanjeetkumar989159-hub&theme=tokyonight&utcOffset=5.5"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sanjeetkumar989159-hub&theme=tokyonight&cache_seconds=0"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sanjeetkumar989159-hub&theme=tokyonight&utcOffset=5.5&cache_seconds=0"/>
 </p>
 
 ---
@@ -221,4 +221,4 @@ Sat --> Sun[🔁 Repeat]
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0066FF&height=140&section=footer&animation=twinkling"/>
-</p> stats me mere star count nhi ho rha hai
+</p>
