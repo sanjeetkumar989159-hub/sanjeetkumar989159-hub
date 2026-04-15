@@ -3,9 +3,8 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:0066FF&height=120&section=header&text=Turning%20Ideas%20into%20Reliable%20Software&fontSize=26&fontColor=ffffff"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:0066FF&height=120&section=header&text=Designing%20Code%20That%20Matters&fontSize=28&fontColor=ffffff"/>
 </p>
-
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2000&pause=700&color=00F7FF&center=true&vCenter=true&width=1000&lines=Hey+👋+I'm+Sanjeet+Kumar;💻+Future+Software+Developer;🚀+Passionate+Programmer;🔥+Building+My+Dream+Career;📚+Learning+Every+Day" />
 </p>
