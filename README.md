@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:0066FF&height=120&section=header&text=CODE.+CREATE.+CONQUER.&fontSize=30&fontColor=ffffff&animation=blinking"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:0066FF&height=120&section=header&text=Turning%20Ideas%20into%20Reliable%20Software&fontSize=26&fontColor=ffffff"/>
 </p>
 
 <p align="center">
