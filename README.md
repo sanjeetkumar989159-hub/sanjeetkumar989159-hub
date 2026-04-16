@@ -27,7 +27,7 @@
 * 💡 Love solving real-world problems
 * 📚 Learning **C | Python | Java**
 * ⚡ Motto: **Consistency > Motivation**
-* 🚀 Focused on becoming job-ready developer
+ #🚀 Focused on becoming job-ready developer
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Learning%20%F0%9F%93%9A-00F7FF?style=for-the-badge"/>
