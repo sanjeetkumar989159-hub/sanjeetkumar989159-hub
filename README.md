@@ -49,32 +49,6 @@
 
 ---
 
-## 🚀 Featured Project
-
-### 🛒 APNA MART - Grocery Delivery Web App
-
-A modern grocery delivery web application built using **HTML, CSS, and JavaScript**.
-
-<p align="center">
-  <a href="https://sanjeetkumar989159-hub.github.io/APNA_mart-Grocery-/">
-    <img src="https://img.shields.io/badge/Live-Demo-00F7FF?style=for-the-badge&logo=google-chrome&logoColor=black"/>
-  </a>
-  <a href="https://github.com/sanjeetkumar989159-hub/APNA_mart-Grocery-">
-    <img src="https://img.shields.io/badge/Source-Code-0066FF?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
-
-### Features
-- Product search and filtering  
-- Shopping cart system  
-- Wishlist  
-- Coupon system  
-- Order tracking  
-- Live map integration  
-- Dark mode  
-- Responsive UI  
-
----
 
 ## 📊 GitHub Stats
 
