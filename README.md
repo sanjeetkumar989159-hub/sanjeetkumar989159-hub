@@ -1,42 +1,41 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=1800&pause=600&color=00F7FF&center=true&vCenter=true&width=1000&lines=SANJEET+KUMAR;SOFTWARE+DEVELOPER+IN+PROGRESS;BUILDING+THE+FUTURE+🚀" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0066FF&height=190&section=header&text=Sanjeet%20Kumar&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0066FF&height=180&section=header&text=Welcome%20To%20My%20Profile&fontSize=38&fontColor=ffffff&animation=fadeIn"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2200&pause=800&color=00F7FF&center=true&vCenter=true&width=900&lines=Software+Developer+in+Progress;Frontend+%26+Programming+Learner;Building+Real-World+Projects;Learning+Every+Day+🚀" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sanjeetkumar989159-hub&label=Profile+Views&color=00F7FF&style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=sanjeetkumar989159-hub&label=Profile%20Views&color=00F7FF&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Learning-00F7FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Focus-Development-0066FF?style=for-the-badge"/>
 </p>
 
 ---
 
-## 🧑‍💻 About Me
+## 👋 About Me
 
-<img align="right" alt="coding" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+<img align="right" alt="coding" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+
+Hi, I'm **Sanjeet Kumar**, an engineering student and aspiring software developer.  
+I am currently focused on improving my programming fundamentals, logic building, and real-world project development skills.
 
 - 🎓 Engineering Student  
-- 💻 Future Software Developer  
-- 📚 Learning **C | C++ | Python | Java | Web Development**  
-- 🚀 Building real-world projects  
-- 🎯 Goal: Become internship-ready  
+- 💻 Aspiring Software Developer  
+- 🌱 Currently learning **C, C++, Python, Java, HTML, CSS, JavaScript**
+- 🚀 Building frontend and logic-based projects
+- 🎯 Goal: Become internship-ready and job-ready
 - ⚡ Motto: **Consistency > Motivation**
 
 <br clear="both"/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Learning-00F7FF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Focus-Development-0066FF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Goal-Internship%20Ready-00F7FF?style=for-the-badge"/>
-</p>
-
 ---
 
-## 🎯 Current Mission
+## 🎯 Current Focus
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2000&pause=800&color=F7B801&center=true&vCenter=true&width=800&lines=Building+Real+Projects;Improving+Logic+Skills;Maintaining+GitHub+Streak;Learning+Every+Day;Getting+Internship+Ready" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2200&pause=800&color=F7B801&center=true&vCenter=true&width=850&lines=Strengthening+Programming+Logic;Building+Frontend+Projects;Practicing+Problem+Solving;Maintaining+GitHub+Consistency;Preparing+for+Internships" />
 </p>
 
 ---
@@ -49,8 +48,36 @@
 
 ---
 
+## 🚀 Featured Project
 
-## 📊 GitHub Stats
+### 🛒 APNA MART - Grocery Delivery Web App
+
+A modern grocery delivery web application built using **HTML, CSS, and JavaScript**.
+
+<p align="center">
+  <a href="https://sanjeetkumar989159-hub.github.io/APNA_mart-Grocery-/">
+    <img src="https://img.shields.io/badge/Live%20Demo-00F7FF?style=for-the-badge&logo=googlechrome&logoColor=black"/>
+  </a>
+  <a href="https://github.com/sanjeetkumar989159-hub/APNA_mart-Grocery-">
+    <img src="https://img.shields.io/badge/Source%20Code-0066FF?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+#### Key Features
+
+- Product listing with categories
+- Search and filter functionality
+- Add to cart and quantity update
+- Wishlist system
+- Coupon and discount system
+- Order history
+- Delivery tracking simulation
+- Dark / light mode
+- Fully responsive design
+
+---
+
+## 📊 GitHub Statistics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sanjeetkumar989159-hub&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF&text_color=ffffff" height="180"/>
@@ -74,15 +101,15 @@
 
 ---
 
-## 🚀 Activity Graph
+## 📈 Contribution Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjeetkumar989159-hub&theme=react-dark&hide_border=true&area=true&custom_title=My%20Coding%20Journey"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjeetkumar989159-hub&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Graph"/>
 </p>
 
 ---
 
-## 📊 Advanced GitHub Insights
+## 📊 Profile Summary
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sanjeetkumar989159-hub&theme=tokyonight"/>
@@ -95,12 +122,12 @@
 
 ---
 
-## 🧠 Developer Loop
+## 🧠 Developer Workflow
 
 ```mermaid
 graph LR;
-A[💡 Learn] --> B[💻 Code]
-B --> C[🧩 Practice]
-C --> D[🚀 Build]
-D --> E[🐛 Debug]
+A[Learn Fundamentals] --> B[Practice Logic]
+B --> C[Build Projects]
+C --> D[Debug and Improve]
+D --> E[Push to GitHub]
 E --> A
