@@ -5,7 +5,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2200&pause=800&color=00F7FF&center=true&vCenter=true&width=900&lines=Software+Developer+in+Progress;Frontend+%26+Programming+Learner;Building+Real-World+Projects;Learning+Every+Day+🚀" />
 </p>
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=sanjeetkumar989159-hub&label=Profile%20Views&color=00F7FF&style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Learning-00F7FF?style=for-the-badge"/>
