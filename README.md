@@ -61,41 +61,6 @@ Hey there! I'm **Sanjeet Kumar**, an engineering student on a mission to become 
 
 ---
 
-## 🚀 Featured Project
-
-### 🛒 APNA MART — Grocery Delivery Web App
-
-> A fully functional, modern grocery delivery web application built with **HTML, CSS, and JavaScript** — no frameworks, just fundamentals done right.
-
-<p align="center">
-  <a href="https://sanjeetkumar989159-hub.github.io/APNA_mart-Grocery-/">
-    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-00F7FF?style=for-the-badge&logoColor=black"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/sanjeetkumar989159-hub/APNA_mart-Grocery-">
-    <img src="https://img.shields.io/badge/📂%20Source%20Code-0066FF?style=for-the-badge&logoColor=white"/>
-  </a>
-</p>
-
-<details>
-<summary><b>✨ Key Features (click to expand)</b></summary>
-<br/>
-
-| Feature | Description |
-|---|---|
-| 🗂️ Product Categories | Browse items organized by category |
-| 🔍 Search & Filter | Find products quickly with real-time search |
-| 🛒 Cart Management | Add items, update quantities, remove products |
-| ❤️ Wishlist | Save favorite items for later |
-| 🏷️ Coupons & Discounts | Apply promo codes at checkout |
-| 📦 Order History | View past orders |
-| 🚚 Delivery Tracking | Simulated delivery status updates |
-| 🌙 Dark / Light Mode | Toggle between themes |
-| 📱 Fully Responsive | Works seamlessly on all screen sizes |
-
-</details>
-
----
 
 ## 📊 GitHub Statistics
 
