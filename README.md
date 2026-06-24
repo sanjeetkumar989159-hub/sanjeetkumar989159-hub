@@ -223,7 +223,7 @@ graph LR
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sanjeetkumar989159-hub&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=sanjeetkumar989159-hub&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" />
 </p>
 
 ---
@@ -233,12 +233,44 @@ graph LR
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sanjeetkumar989159-hub/sanjeetkumar989159-hub/output/github-contribution-grid-snake-dark.svg" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanjeetkumar989159-hub/sanjeetkumar989159-hub/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanjeetkumar989159-hub/sanjeetkumar989159-hub/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/sanjeetkumar989159-hub/sanjeetkumar989159-hub/output/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
 
-<!-- ⚙️ ACTION REQUIRED: To enable the snake animation, create a GitHub Actions workflow in your profile repo.
-     Create: .github/workflows/snake.yml with the platane/snk action targeting your username.
-     Reference: https://github.com/Platane/snk -->
+<!--
+⚙️ ONE-TIME SETUP — Create this file in your profile repo to activate the snake:
+
+FILE: .github/workflows/snake.yml
+─────────────────────────────────────────────────────────
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+─────────────────────────────────────────────────────────
+After committing this file, go to Actions tab → run "Generate Snake" manually once.
+-->
 
 ---
 
@@ -486,7 +518,13 @@ graph LR
 ## 💬 Dev Quote of the Day
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" />
+  <img src="https://readme-daily-quotes.vercel.app/api?author=Linus+Torvalds&quote=Talk+is+cheap.+Show+me+the+code.&theme=dark&bg=0D1117&qColor=00F7FF&aColor=7B2FF7&tColor=ffffff&border=true" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/💡%20Motto-Consistency%20%3E%20Motivation-0D1117?style=for-the-badge&labelColor=0D1117&color=00F7FF" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/🚀%20Belief-Every%20Expert%20Was%20Once%20a%20Beginner-0D1117?style=for-the-badge&labelColor=0D1117&color=7B2FF7" />
 </p>
 
 ---
@@ -496,10 +534,12 @@ graph LR
 ## 📡 GitHub Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=sanjeetkumar989159-hub&theme=react&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=ffffff&layout=compact" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sanjeetkumar989159-hub&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=7B2FF7&text_color=ffffff&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" height="180"/>
 </p>
 
-<!-- 💡 TIP: Connect your WakaTime account at wakatime.com for detailed coding time metrics -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjeetkumar989159-hub&layout=donut&theme=react&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=ffffff&langs_count=8" height="220"/>
+</p>
 
 ---
 
@@ -569,7 +609,11 @@ graph LR
 ## 👁️ Visitor Counter
 
 <p align="center">
-  <img src="https://profile-counter.glitch.me/sanjeetkumar989159-hub/count.svg" />
+  <img src="https://komarev.com/ghpvc/?username=sanjeetkumar989159-hub&label=Profile+Views&color=00F7FF&style=for-the-badge" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjeetkumar989159-hub&query=%24.followers&label=Followers&color=7B2FF7&style=for-the-badge&logo=github&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjeetkumar989159-hub&query=%24.public_repos&label=Public+Repos&color=0066FF&style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
 <p align="center">
