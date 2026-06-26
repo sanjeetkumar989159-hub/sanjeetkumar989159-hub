@@ -218,27 +218,7 @@ graph LR
 
 ---
 
-<!-- ═══════════════════════════════════════════════ GITHUB TROPHIES ═══════════════════════════════════════════════ -->
 
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sanjeetkumar989159-hub&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" />
-</p>
-
----
-
-<!-- ═══════════════════════════════════════════════ CONTRIBUTION SNAKE ═══════════════════════════════════════════════ -->
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanjeetkumar989159-hub/sanjeetkumar989159-hub/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanjeetkumar989159-hub/sanjeetkumar989159-hub/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/sanjeetkumar989159-hub/sanjeetkumar989159-hub/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
 
 ⚙️ ONE-TIME SETUP — Create this file in your profile repo to activate the snake:
 
@@ -295,7 +275,6 @@ After committing this file, go to Actions tab → run "Generate Snake" manually 
 | Platform | Focus | Status |
 |:--------:|:-----:|:------:|
 | 🟡 LeetCode | DSA & Algorithms | 🔄 Active |
-| 🟤 CodeChef | Competitive Programming | 🔄 Active |
 | 🟢 GeeksforGeeks | CS Fundamentals | 🔄 Active |
 | 🟩 HackerRank | Problem Solving | 🔄 Active |
 
