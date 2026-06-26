@@ -379,11 +379,10 @@ After committing this file, go to Actions tab → run "Generate Snake" manually 
 
 | 🏆 Achievement | 📅 When | 🔥 Impact |
 |:--------------:|:-------:|:---------:|
-| First GitHub Repo | 2024 | Started public dev journey |
-| Completed C++ OOP | 2023 | Strong OOP foundation |
-| Built First Web Project | 2024 | Real frontend experience |
-| Consistent GitHub Streak | 2025 | Discipline & consistency |
-| Started DSA Journey | 2025 | Problem-solving skills |
+| First GitHub Repo | 2025 | Started public dev journey |
+| Built First Web Project | 2026 | Real frontend experience |
+| Consistent GitHub Streak | 2026 | Discipline & consistency |
+| Started DSA Journey | 2026 | Problem-solving skills |
 
 </div>
 
