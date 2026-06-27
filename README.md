@@ -2,6 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,50:7B2FF7,100:0066FF&height=220&section=header&text=Sanjeet%20Kumar&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Engineering%20Student%20%7C%20Aspiring%20Software%20Developer&descSize=18&descAlignY=56&descColor=ccf5ff" />
 </p>
 
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=900&color=00F7FF&center=true&vCenter=true&width=950&lines=Hey+There!+I'm+Sanjeet+Kumar+%F0%9F%91%8B;Engineering+Student+on+a+Mission+%F0%9F%9A%80;Building+Real+Projects+from+Fundamentals+%F0%9F%94%A8;Frontend+%26+Logic+Builder+%F0%9F%A7%A0;Consistency+%3E+Motivation+%E2%9C%85;Open+to+Internships+%26+Collaborations+%F0%9F%A4%9D" />
 </p>
