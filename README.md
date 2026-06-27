@@ -220,36 +220,6 @@ graph LR
 
 
 
-⚙️ ONE-TIME SETUP — Create this file in your profile repo to activate the snake:
-
-FILE: .github/workflows/snake.yml
-─────────────────────────────────────────────────────────
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-─────────────────────────────────────────────────────────
-After committing this file, go to Actions tab → run "Generate Snake" manually once.
-
 
 ---
 
@@ -316,28 +286,24 @@ After committing this file, go to Actions tab → run "Generate Snake" manually 
 📅  LEARNING TIMELINE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  2022  ──►  Started Engineering
+  2025  ──►  Started Engineering
               └── First "Hello World" in C 🎉
 
-  2023  ──►  Language Expansion
+  2025 ──►  Language Expansion
               ├── Learned C++ & OOP concepts
               └── Wrote first Python script 🐍
 
-  2024  ──►  Web Development Entry
+  2025  ──►  Web Development Entry
               ├── Built first HTML/CSS page
               ├── Started JavaScript DOM
               └── Created first GitHub repo 📂
 
-  2025  ──►  Serious Developer Mode ON 🔥
+  2026 ──►  Serious Developer Mode ON 🔥
               ├── Consistent GitHub commits
               ├── Started DSA journey
               ├── Built portfolio projects
               └── Joined coding communities
 
-  2026  ──►  Internship Year 🎯
-              ├── Contributing to open source
-              ├── Targeting dev internships
-              └── Becoming job-ready ✅
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
