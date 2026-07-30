@@ -176,9 +176,14 @@ graph LR
 ## 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sanjeetkumar989159-hub&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=7B2FF7&text_color=ffffff&count_private=true&rank_icon=github" height="185"/>
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjeetkumar989159-hub&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=ffffff&langs_count=8" height="185"/>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=sanjeetkumar989159-hub&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=7B2FF7&text_color=FFFFFF&count_private=true&include_all_commits=true"
+    height="185"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjeetkumar989159-hub&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=FFFFFF&langs_count=8"
+    height="185"
+  />
 </p>
 
 ---
