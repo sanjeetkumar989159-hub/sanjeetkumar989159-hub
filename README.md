@@ -188,7 +188,9 @@ graph LR
 ## 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=sanjeetkumar989159-hub&theme=react&hide_border=true" alt="GitHub Streak" />
+
+  <img src="https://streak-stats.demolab.com?user=sanjeetkumar989159-hub&theme=react&hide_border=true&background=0D1117&ring=00F7FF&fire=FFB000&currStreakLabel=00F7FF&sideLabels=ffffff&dates=aaaaaa&stroke=7B2FF7" height="185"/>
+
 </p>
 
 ---
