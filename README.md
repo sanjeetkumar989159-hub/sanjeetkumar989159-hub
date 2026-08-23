@@ -191,9 +191,7 @@ graph LR
 <!-- ═══════════════════════════════════════════════ STREAK ═══════════════════════════════════════════════ -->
 
 ## 🔥 GitHub Streak
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=sanjeetkumar989159-hub&theme=react&hide_border=true" alt="GitHub Streak" />
-</p>
+
 
 
 ---
