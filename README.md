@@ -20,13 +20,13 @@
   <img src="https://img.shields.io/badge/Location-India%20%F0%9F%87%AE%F0%9F%87%B3-0066FF?style=for-the-badge" />
 </p>
 
-<p align="center"><img src="./assets/about.svg" alt="About Sanjeet Kumar" width="100%" /></p>
+<p align="center"><img src="./about.svg" alt="About Sanjeet Kumar" width="100%" /></p>
 
-<p align="center"><img src="./assets/focus.svg" alt="Current focus: learning, building, targeting" width="100%" /></p>
+<p align="center"><img src="./focus.svg" alt="Current focus: learning, building, targeting" width="100%" /></p>
 
-<p align="center"><img src="./assets/stack.svg" alt="Tech stack: C, C++, Python, Java, JavaScript, HTML, CSS, Git, GitHub, VS Code, React, Node.js, DSA" width="100%" /></p>
+<p align="center"><img src="./stack.svg" alt="Tech stack: C, C++, Python, Java, JavaScript, HTML, CSS, Git, GitHub, VS Code, React, Node.js, DSA" width="100%" /></p>
 
-<p align="center"><img src="./assets/roadmap.svg" alt="Developer roadmap in four phases" width="100%" /></p>
+<p align="center"><img src="./roadmap.svg" alt="Developer roadmap in four phases" width="100%" /></p>
 
 ## 🔄 Developer Workflow
 
@@ -99,23 +99,23 @@ graph LR
 
 </p>
 
-<p align="center"><img src="./assets/projects.svg" alt="Featured projects: Portfolio Website, Calculator App, DSA Visualizer, To-Do App, Weather App" width="100%" /></p>
+<p align="center"><img src="./projects.svg" alt="Featured projects: Portfolio Website, Calculator App, DSA Visualizer, To-Do App, Weather App" width="100%" /></p>
 
 <p align="center">Browse the code on <a href="https://github.com/sanjeetkumar989159-hub?tab=repositories">GitHub</a>.</p>
 
-<p align="center"><img src="./assets/timeline.svg" alt="Learning journey timeline 2025 to 2026" width="100%" /></p>
+<p align="center"><img src="./timeline.svg" alt="Learning journey timeline 2025 to 2026" width="100%" /></p>
 
-<p align="center"><img src="./assets/mindset.svg" alt="Developer mindset" width="100%" /></p>
+<p align="center"><img src="./mindset.svg" alt="Developer mindset" width="100%" /></p>
 
-<p align="center"><img src="./assets/achievements.svg" alt="Achievements" width="100%" /></p>
+<p align="center"><img src="./achievements.svg" alt="Achievements" width="100%" /></p>
 
-<p align="center"><img src="./assets/goals.svg" alt="Goals checklist for 2026" width="100%" /></p>
+<p align="center"><img src="./goals.svg" alt="Goals checklist for 2026" width="100%" /></p>
 
-<p align="center"><img src="./assets/principles.svg" alt="Developer principles" width="100%" /></p>
+<p align="center"><img src="./principles.svg" alt="Developer principles" width="100%" /></p>
 
-<p align="center"><img src="./assets/funfacts.svg" alt="Fun facts about me" width="100%" /></p>
+<p align="center"><img src="./funfacts.svg" alt="Fun facts about me" width="100%" /></p>
 
-<p align="center"><img src="./assets/routine.svg" alt="A day in my developer life" width="100%" /></p>
+<p align="center"><img src="./routine.svg" alt="A day in my developer life" width="100%" /></p>
 
 ## 💬 Dev Quote of the Day
 
