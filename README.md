@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg" /> 
     <source media="(prefers-color-scheme: light)" srcset="./light.svg" />
     <img src="./dark.svg" alt="Sanjeet Kumar — Engineering student and aspiring software developer, based in India, focused on frontend development and DSA, open to internships" width="100%" />
   </picture>
