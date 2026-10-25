@@ -162,28 +162,19 @@ graph LR
   </a>
 </p>
 
-## 🔥 LeetCode Submission Heatmap
+# 🏆 My LeetCode Badges
 
 <p align="center">
   <a href="https://leetcode.com/u/sanjeet1234/">
-    <img src="https://leetcard.jacoblin.cool/sanjeet1234?theme=dark&ext=heatmap" alt="LeetCode Submission Heatmap" />
-  ## 🏆 LeetCode Profile
-
-<p align="left">
-  <a href="https://leetcode.com/u/sanjeet1234/">
-    <img src="https://img.shields.io/badge/LeetCode-My%20Profile-orange?style=for-the-badge&logo=leetcode" alt="LeetCode" />
-  </a>
-  <a href="https://github.com/">
-    <img src="https://img.shields.io/badge/GitHub-My%20Profile-black?style=for-the-badge&logo=github" alt="GitHub" />
+    <img src="https://leetcode-badge-showcase.vercel.app/api?username=sanjeet1234" alt="My LeetCode Badges" />
   </a>
 </p>
 
 
-<p align="left">
-  <a href="https://leetcode.com/u/sanjeet1234/">
-    <img src="https://img.shields.io/badge/LeetCode-Visit%20My%20Profile-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Profile"/>
-  </a>
-</p>
+## 🔥 My LeetCode Profile
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-Visit_My_Profile-orange?style=for-the-badge\&logo=leetcode\&logoColor=white)](https://leetcode.com/u/sanjeet1234/)
+
 
 ## 📊 LeetCode Stats
 
