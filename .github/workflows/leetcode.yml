@@ -1,9 +1,10 @@
+
 name: LeetCode Profile Dashboard
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,16 +14,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Generate LeetCode Dashboard
-        uses: gufran21/LeetCodeProfileGenerator@v1
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          username: 'sanjeet1234'
-          theme: 'github_dark'
-          generate_dashboard: 'true'
-          generate_stats: 'true'
-          generate_heatmap: 'true'
-          generate_streak: 'true'
-          generate_badges: 'true'
-          auto_commit: 'true'
+          python-version: "3.12"
+
+      - name: Install generator
+        run: pip install leetcode-profile-generator
+
+      - name: Generate dashboard cards
+        run: |
+          leetcode-profile \
+            --username sanjeet1234 \
+            --theme github_dark \
+            --output ./assets
+
+      - name: Save generated cards
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update LeetCode dashboard"
