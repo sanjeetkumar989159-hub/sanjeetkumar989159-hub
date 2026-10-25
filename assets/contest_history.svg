@@ -1,0 +1,17 @@
+<svg width="600" height="120"
+  viewBox="0 0 600 120"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  role="img"
+  aria-label="No contests for sanjeet1234"
+>
+  <title>No contests for sanjeet1234</title>
+
+<defs>
+<linearGradient id="bg_grad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/></linearGradient>
+</defs>
+<rect x="0.5" y="0.5" width="599" height="119" rx="12" fill="url(#bg_grad)" stroke="#30363d" stroke-width="1"/>
+<g transform="translate(24,24) scale(0.75)"><path d="M7 4V2h10v2h3v4c0 1.1-.9 2-2 2h-1.16A5.98 5.98 0 0 1 12 16a5.98 5.98 0 0 1-4.84-6H6c-1.1 0-2-.9-2-2V4h3Zm-1 2H5v2h1V6Zm12 0h-1v2h1V6ZM12 18l-3 3h6l-3-3Z" fill="#8b949e"/></g>
+<text x="48" y="38" font-size="16" fill="#e6edf3" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif" font-weight="bold">Recent Contests</text>
+<text x="300.0" y="75" font-size="13" fill="#8b949e" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif" font-weight="normal" text-anchor="middle">No contest history available</text>
+</svg>

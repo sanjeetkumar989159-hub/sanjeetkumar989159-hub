@@ -1,0 +1,18 @@
+<svg width="600" height="120"
+  viewBox="0 0 600 120"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  role="img"
+  aria-label="No contest data for sanjeet1234"
+>
+  <title>No contest data for sanjeet1234</title>
+
+<defs>
+<linearGradient id="bg_grad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/></linearGradient>
+</defs>
+<rect x="0.5" y="0.5" width="599" height="119" rx="12" fill="url(#bg_grad)" stroke="#30363d" stroke-width="1"/>
+<g transform="translate(24,24) scale(0.6666666666666666)"><path d="M3 13h2v8H3v-8Zm4-4h2v12H7V9Zm4-4h2v16h-2V5Zm4 8h2v8h-2v-8Zm4-6h2v14h-2V7Z" fill="#8b949e"/></g>
+<text x="46" y="38" font-size="16" fill="#e6edf3" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif" font-weight="bold">Contest Rating History</text>
+<text x="300.0" y="75" font-size="13" fill="#8b949e" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif" font-weight="normal" text-anchor="middle">No contest data available yet</text>
+<text x="300.0" y="95" font-size="11" fill="#8b949e" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif" font-weight="normal" text-anchor="middle">Participate in a LeetCode contest to see your rating graph!</text>
+</svg>
