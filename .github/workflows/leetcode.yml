@@ -4,13 +4,13 @@ name: LeetCode Profile Dashboard
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "17 0 * * *"
 
 permissions:
   contents: write
 
 jobs:
-  leetcode:
+  update-dashboard:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,35 +22,186 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install generator
-        run: python -m pip install --upgrade leetcode-profile-generator
-
-      - name: Generate dashboard
+      - name: Generate accurate LeetCode dashboard
         run: |
-          leetcode-profile \
-            --username sanjeet1234 \
-            --theme github_dark \
-            --output ./assets \
-            --no-cache \
-            --dashboard \
-            --stats \
-            --rating \
-            --difficulty \
-            --heatmap \
-            --streak \
-            --contest-history \
-            --badges \
-            --verbose
+          mkdir -p assets
+          cat > generate_dashboard.py <<'PY'
+          import json
+          import urllib.request
+          from pathlib import Path
+          from datetime import datetime, timezone, timedelta
+          from html import escape
 
-      - name: Verify generated files
-        run: |
-          ls -lah assets
-          test -s assets/dashboard.svg
-          test -s assets/leetcode_stats.svg
-          test -s assets/heatmap.svg
-          test -s assets/badges.svg
+          USER = "sanjeet1234"
+          OUT = Path("assets")
+          OUT.mkdir(exist_ok=True)
 
-      - name: Commit generated cards
+          url = f"https://leetcode-stats.tashif.codes/{USER}"
+          req = urllib.request.Request(
+              url, headers={"User-Agent": "Mozilla/5.0"}
+          )
+
+          with urllib.request.urlopen(req, timeout=40) as r:
+              data = json.load(r)
+
+          if data.get("status") != "success":
+              raise RuntimeError(f"API did not return success: {data}")
+
+          solved = int(data["totalSolved"])
+          easy = int(data["easySolved"])
+          medium = int(data["mediumSolved"])
+          hard = int(data["hardSolved"])
+          rate = float(data["acceptanceRate"])
+          ranking = data.get("ranking", 0)
+          badges = int(data.get("data", {}).get("badgesCount", 0))
+          calendar = data.get("submissionCalendar", {})
+
+          def svg_doc(content, width=900, height=260):
+              return f'''<svg xmlns="http://www.w3.org/2000/svg"
+                width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+                <rect width="100%" height="100%" rx="18" fill="#0d1117"/>
+                {content}
+              </svg>'''
+
+          def txt(x, y, value, size=16, color="#e6edf3",
+                  weight="normal", anchor="start"):
+              return (
+                  f'<text x="{x}" y="{y}" fill="{color}" '
+                  f'font-family="Arial,Helvetica,sans-serif" '
+                  f'font-size="{size}" font-weight="{weight}" '
+                  f'text-anchor="{anchor}">{escape(str(value))}</text>'
+              )
+
+          # Main dashboard
+          c = []
+          c.append(txt(30, 42, "LeetCode Dashboard", 25, "#f0f6fc", "bold"))
+          c.append(txt(30, 70, f"@{USER}", 15, "#8b949e"))
+          c.append(txt(30, 135, solved, 48, "#ffa116", "bold"))
+          c.append(txt(30, 163, "Problems Solved", 14, "#8b949e"))
+
+          cards = [
+              (245, "Easy", easy, "#00b8a3"),
+              (405, "Medium", medium, "#ffc01e"),
+              (565, "Hard", hard, "#ef4743"),
+              (725, "Acceptance", f"{rate:.2f}%", "#a371f7"),
+          ]
+          for x, label, value, color in cards:
+              c.append(
+                  f'<rect x="{x}" y="94" width="145" height="100" '
+                  f'rx="12" fill="#161b22" stroke="#30363d"/>'
+              )
+              c.append(txt(x + 14, 125, label, 14, "#8b949e"))
+              c.append(txt(x + 14, 163, value, 25, color, "bold"))
+
+          c.append(txt(30, 225, f"Global ranking: {ranking:,}", 14, "#8b949e"))
+          c.append(txt(870, 225, "Updated from stats API", 12, "#8b949e",
+                       anchor="end"))
+          (OUT / "dashboard.svg").write_text(
+              svg_doc("".join(c), 900, 250), encoding="utf-8"
+          )
+
+          # Statistics card
+          c = [txt(30, 42, "LeetCode Statistics", 24, "#f0f6fc", "bold")]
+          rows = [
+              ("Total Solved", solved),
+              ("Easy Solved", easy),
+              ("Medium Solved", medium),
+              ("Hard Solved", hard),
+              ("Acceptance Rate", f"{rate:.2f}%"),
+              ("Badges Earned", badges),
+          ]
+          for i, (label, value) in enumerate(rows):
+              y = 82 + i * 32
+              c.append(txt(35, y, label, 16, "#8b949e"))
+              c.append(txt(440, y, value, 17, "#f0f6fc", "bold"))
+          (OUT / "leetcode_stats.svg").write_text(
+              svg_doc("".join(c), 500, 285), encoding="utf-8"
+          )
+
+          # Last 365 days of submission activity
+          today = datetime.now(timezone.utc).date()
+          start = today - timedelta(days=364)
+          day_counts = {}
+          for timestamp, count in calendar.items():
+              day = datetime.fromtimestamp(
+                  int(timestamp), timezone.utc
+              ).date()
+              day_counts[day] = int(count)
+
+          c = [
+              txt(25, 32, "Submission Activity", 22, "#f0f6fc", "bold"),
+              txt(25, 55, "Daily submissions · Last 365 days", 13, "#8b949e"),
+          ]
+          first_weekday = (start.weekday() + 1) % 7
+          cell = 11
+          gap = 4
+          x0, y0 = 55, 80
+          total = 0
+
+          for offset in range(365):
+              day = start + timedelta(days=offset)
+              count = day_counts.get(day, 0)
+              total += count
+              col = (first_weekday + offset) // 7
+              row = (first_weekday + offset) % 7
+
+              if count == 0:
+                  color = "#161b22"
+              elif count < 3:
+                  color = "#0e4429"
+              elif count < 6:
+                  color = "#006d32"
+              elif count < 10:
+                  color = "#26a641"
+              else:
+                  color = "#39d353"
+
+              x = x0 + col * (cell + gap)
+              y = y0 + row * (cell + gap)
+              c.append(
+                  f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" '
+                  f'rx="2" fill="{color}"><title>{day}: {count} submissions'
+                  f'</title></rect>'
+              )
+
+          c.append(txt(55, 151, f"{total} submissions recorded in this period",
+                       13, "#8b949e"))
+          (OUT / "heatmap.svg").write_text(
+              svg_doc("".join(c), 900, 180), encoding="utf-8"
+          )
+
+          # Badge summary: the API supplies a count, not original badge images.
+          c = [
+              txt(30, 45, "LeetCode Badges", 24, "#f0f6fc", "bold"),
+              txt(30, 105, badges, 38, "#ffa116", "bold"),
+              txt(30, 137, "Badges earned on LeetCode", 15, "#8b949e"),
+              txt(30, 190, "View the original badges on your LeetCode profile.",
+                  14, "#c9d1d9"),
+              f'<a href="https://leetcode.com/u/{USER}/">'
+              f'<text x="30" y="225" fill="#58a6ff" font-family="Arial" '
+              f'font-size="16">Open official LeetCode profile</text></a>',
+          ]
+          (OUT / "badges.svg").write_text(
+              svg_doc("".join(c), 600, 260), encoding="utf-8"
+          )
+
+          # Validate that all files are non-empty before committing.
+          for name in (
+              "dashboard.svg", "leetcode_stats.svg",
+              "heatmap.svg", "badges.svg"
+          ):
+              path = OUT / name
+              if not path.exists() or path.stat().st_size == 0:
+                  raise RuntimeError(f"Failed to generate {path}")
+              print(f"Generated {path}")
+
+          print(f"Acceptance rate: {rate:.2f}%")
+          print(f"Problems solved: {solved}")
+          PY
+
+          python generate_dashboard.py
+
+      - name: Commit updated dashboard
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update LeetCode dashboard"
