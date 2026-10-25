@@ -161,3 +161,5 @@ graph LR
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:0066FF,100:22D3EE&height=140&section=footer&text=Let's%20Build%20Something%20Great!&fontSize=24&fontColor=ffffff&animation=fadeIn&fontAlignY=65" />
 </p>
+
+https://img.shields.io/badge/LeetCode-sanjeet1234-orange?logo=leetcode&logoColor=white
