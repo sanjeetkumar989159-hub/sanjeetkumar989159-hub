@@ -144,23 +144,23 @@ graph LR
   <a href="https://github.com/sanjeetkumar989159-hub" target="_blank"><img src="https://img.shields.io/badge/GitHub-sanjeetkumar989159--hub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
-# LeetCode Dashboard
+# 🏆 My LeetCode Dashboard
 
-![LeetCode Dashboard](./assets/dashboard.svg)
+![Dashboard](./assets/dashboard.svg)
 
-## 🏆 LeetCode Badges
+## 📊 Statistics
 
-![LeetCode Badges](./assets/badges.svg)
-
-## 📊 LeetCode Statistics
-
-![LeetCode Stats](./assets/leetcode_stats.svg)
+![Stats](./assets/leetcode_stats.svg)
 
 ## 🔥 Submission Heatmap
 
-![LeetCode Heatmap](./assets/heatmap.svg)
+![Heatmap](./assets/heatmap.svg)
 
+## 🏅 My Original LeetCode Badges
 
+![Badges](./assets/badges.svg)
+
+[Visit my LeetCode Profile](https://leetcode.com/u/sanjeet1234/)
 
 
 
