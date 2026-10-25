@@ -144,45 +144,28 @@ graph LR
   <a href="https://github.com/sanjeetkumar989159-hub" target="_blank"><img src="https://img.shields.io/badge/GitHub-sanjeetkumar989159--hub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
-# 👋 Hi, I'm Sanjeet!
-
-### 💻 Software Developer | LeetCode Problem Solver
-
----
-
-## 🟠 My LeetCode Profile
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-sanjeet1234-orange?style=for-the-badge\&logo=leetcode\&logoColor=white)](https://leetcode.com/u/sanjeet1234/)
-
-## 📊 LeetCode Statistics
+# LeetCode Progress
 
 <p align="center">
   <a href="https://leetcode.com/u/sanjeet1234/">
-    <img src="https://leetcard.jacoblin.cool/sanjeet1234?theme=dark&font=Baloo&ext=contest" alt="LeetCode Statistics" />
+    <img src="https://leetcard.jacoblin.cool/sanjeet1234?theme=dark&font=Baloo&ext=heatmap" alt="LeetCode Progress" width="500"/>
   </a>
 </p>
 
-# 🏆 My LeetCode Badges
+## LeetCode Badges
 
 <p align="center">
   <a href="https://leetcode.com/u/sanjeet1234/">
-    <img src="https://leetcode-badge-showcase.vercel.app/api?username=sanjeet1234" alt="My LeetCode Badges" />
+    <img src="https://img.shields.io/badge/LeetCode-My_Profile-orange?style=for-the-badge&logo=leetcode" alt="LeetCode Profile"/>
   </a>
 </p>
 
 
-## 🔥 My LeetCode Profile
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-Visit_My_Profile-orange?style=for-the-badge\&logo=leetcode\&logoColor=white)](https://leetcode.com/u/sanjeet1234/)
+[Visit my LeetCode Profile](https://leetcode.com/u/sanjeet1234/)
 
 
-## 📊 LeetCode Stats
 
-<p align="left">
-  <a href="https://leetcode.com/u/sanjeet1234/">
-    <img src="https://leetcard.jacoblin.cool/sanjeet1234?theme=dark&font=Baloo&ext=contest" alt="LeetCode Stats"/>
-  </a>
-</p>
 
 
 
