@@ -144,6 +144,7 @@ graph LR
   <a href="https://github.com/sanjeetkumar989159-hub" target="_blank"><img src="https://img.shields.io/badge/GitHub-sanjeetkumar989159--hub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
+
 # 🏆 My LeetCode Profile
 
 <p align="center">
@@ -155,42 +156,24 @@ graph LR
 ## 📊 Statistics
 
 <p align="center">
-  <img src="./assets/leetcode_stats.svg" alt="LeetCode Statistics" width="100%">
+  <img src="./assets/leetcode_stats.svg" alt="LeetCode Statistics" width="500">
 </p>
 
 ## 🔥 Submission Heatmap
 
 <p align="center">
-  <img src="./assets/heatmap.svg" alt="Submission Heatmap" width="100%">
+  <img src="./assets/heatmap.svg" alt="LeetCode Submission Heatmap" width="100%">
 </p>
 
-## 🏅 LeetCode Badges
+## 🏅 Badges
 
 <p align="center">
-  <img src="./assets/badges.svg" alt="LeetCode Badges" width="100%">
-</p>
-
-## 📈 Difficulty Distribution
-
-<p align="center">
-  <img src="./assets/difficulty.svg" alt="Difficulty Statistics">
-</p>
-
-## 🔥 Streak
-
-<p align="center">
-  <img src="./assets/streak.svg" alt="LeetCode Streak">
-</p>
-
-## 🏁 Contest History
-
-<p align="center">
-  <img src="./assets/contest_history.svg" alt="Contest History" width="100%">
+  <img src="./assets/badges.svg" alt="LeetCode Badge Summary" width="600">
 </p>
 
 <p align="center">
   <a href="https://leetcode.com/u/sanjeet1234/">
-    View My Official LeetCode Profile
+    View my official LeetCode profile
   </a>
 </p>
 
