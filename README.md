@@ -143,6 +143,22 @@ graph LR
   &nbsp;
   <a href="https://github.com/sanjeetkumar989159-hub" target="_blank"><img src="https://img.shields.io/badge/GitHub-sanjeetkumar989159--hub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
+## 🏆 LeetCode Profile
+
+<p align="left">
+  <a href="https://leetcode.com/u/sanjeet1234/">
+    <img src="https://img.shields.io/badge/LeetCode-Visit%20My%20Profile-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Profile"/>
+  </a>
+</p>
+
+## 📊 LeetCode Stats
+
+<p align="left">
+  <a href="https://leetcode.com/u/sanjeet1234/">
+    <img src="https://leetcard.jacoblin.cool/sanjeet1234?theme=dark&font=Baloo&ext=contest" alt="LeetCode Stats"/>
+  </a>
+</p>
+
 
 <p align="center">
   <a href="https://github.com/sanjeetkumar989159-hub?tab=repositories"><img src="https://img.shields.io/badge/⭐%20Star%20My%20Repos-Motivates%20Me%20A%20Lot!-22D3EE?style=for-the-badge&logo=github&logoColor=black" /></a>
@@ -162,4 +178,4 @@ graph LR
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:0066FF,100:22D3EE&height=140&section=footer&text=Let's%20Build%20Something%20Great!&fontSize=24&fontColor=ffffff&animation=fadeIn&fontAlignY=65" />
 </p>
 
-https://img.shields.io/badge/LeetCode-sanjeet1234-orange?logo=leetcode&logoColor=white
+
