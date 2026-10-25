@@ -159,6 +159,15 @@ graph LR
   </a>
 </p>
 
+<p align="left">
+  <a href="https://leetcode.com/u/sanjeet1234/">
+    <img src="https://img.shields.io/badge/LeetCode-My_Profile-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Badge">
+  </a>
+</p>
+
+
+
+
 
 <p align="center">
   <a href="https://github.com/sanjeetkumar989159-hub?tab=repositories"><img src="https://img.shields.io/badge/⭐%20Star%20My%20Repos-Motivates%20Me%20A%20Lot!-22D3EE?style=for-the-badge&logo=github&logoColor=black" /></a>
