@@ -23,9 +23,9 @@ jobs:
           python-version: "3.12"
 
       - name: Install generator
-        run: pip install leetcode-profile-generator
+        run: python -m pip install --upgrade leetcode-profile-generator
 
-      - name: Generate all LeetCode cards
+      - name: Generate dashboard
         run: |
           leetcode-profile \
             --username sanjeet1234 \
@@ -34,13 +34,21 @@ jobs:
             --no-cache \
             --dashboard \
             --stats \
-            --heatmap \
-            --badges \
-            --streak \
             --rating \
             --difficulty \
+            --heatmap \
+            --streak \
             --contest-history \
+            --badges \
             --verbose
+
+      - name: Verify generated files
+        run: |
+          ls -lah assets
+          test -s assets/dashboard.svg
+          test -s assets/leetcode_stats.svg
+          test -s assets/heatmap.svg
+          test -s assets/badges.svg
 
       - name: Commit generated cards
         uses: stefanzweifel/git-auto-commit-action@v5
