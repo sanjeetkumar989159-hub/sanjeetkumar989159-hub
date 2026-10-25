@@ -144,23 +144,46 @@ graph LR
   <a href="https://github.com/sanjeetkumar989159-hub" target="_blank"><img src="https://img.shields.io/badge/GitHub-sanjeetkumar989159--hub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
-# 🏆 My LeetCode Dashboard
 
-![Dashboard](./assets/dashboard.svg)
+# 🏆 My LeetCode Profile
 
-## 📊 Statistics
+<p align="center">
+  <a href="https://leetcode.com/u/sanjeet1234/">
+    <img src="./assets/dashboard.svg" alt="LeetCode Dashboard" width="100%">
+  </a>
+</p>
 
-![Stats](./assets/leetcode_stats.svg)
+## 📊 LeetCode Statistics
+
+<p align="center">
+  <img src="./assets/leetcode_stats.svg" alt="LeetCode Statistics">
+</p>
 
 ## 🔥 Submission Heatmap
 
-![Heatmap](./assets/heatmap.svg)
+<p align="center">
+  <img src="./assets/heatmap.svg" alt="LeetCode Submission Heatmap" width="100%">
+</p>
 
-## 🏅 My Original LeetCode Badges
+## 🏅 My LeetCode Badges
 
-![Badges](./assets/badges.svg)
+<p align="center">
+  <img src="./assets/badges.svg" alt="LeetCode Badges">
+</p>
 
-[Visit my LeetCode Profile](https://leetcode.com/u/sanjeet1234/)
+## 📈 More Statistics
+
+<p align="center">
+  <img src="./assets/difficulty.svg" alt="Problem Difficulty">
+  <img src="./assets/streak.svg" alt="LeetCode Streak">
+  <img src="./assets/rating_history.svg" alt="Rating History">
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/sanjeet1234/">
+    Visit My Official LeetCode Profile
+  </a>
+</p>
 
 
 
