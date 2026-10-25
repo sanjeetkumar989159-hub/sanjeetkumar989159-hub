@@ -1,0 +1,28 @@
+name: LeetCode Profile Dashboard
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  leetcode:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate LeetCode Dashboard
+        uses: gufran21/LeetCodeProfileGenerator@v1
+        with:
+          username: 'sanjeet1234'
+          theme: 'github_dark'
+          generate_dashboard: 'true'
+          generate_stats: 'true'
+          generate_heatmap: 'true'
+          generate_streak: 'true'
+          generate_badges: 'true'
+          auto_commit: 'true'
