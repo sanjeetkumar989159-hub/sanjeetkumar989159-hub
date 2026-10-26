@@ -168,16 +168,10 @@ graph LR
 ## 🏅 Badges
 
 <p align="center">
-  <img src="./assets/badges.svg" alt="LeetCode Badge Summary" width="600">
-</p>
-
-<p align="center">
   <a href="https://leetcode.com/u/sanjeet1234/">
-    View my official LeetCode profile
+    <img src="./assets/badges.svg" alt="LeetCode Badges" width="100%">
   </a>
 </p>
-
-
 
 
 
