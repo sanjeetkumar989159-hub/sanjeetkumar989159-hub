@@ -1,4 +1,3 @@
-
 name: LeetCode Profile Dashboard
 
 on:
@@ -9,9 +8,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: leetcode-dashboard
+  cancel-in-progress: true
+
 jobs:
   update-dashboard:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
@@ -22,46 +26,65 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate accurate LeetCode dashboard
+      - name: Generate LeetCode dashboard
         run: |
           mkdir -p assets
-          cat > generate_dashboard.py <<'PY'
+          cat > "$RUNNER_TEMP/generate_dashboard.py" <<'PY'
+          import base64
           import json
+          import math
+          import time
           import urllib.request
-          from pathlib import Path
           from datetime import datetime, timezone, timedelta
           from html import escape
+          from pathlib import Path
 
           USER = "sanjeet1234"
           OUT = Path("assets")
           OUT.mkdir(exist_ok=True)
+          UA = {"User-Agent": "Mozilla/5.0"}
 
-          url = f"https://leetcode-stats.tashif.codes/{USER}"
-          req = urllib.request.Request(
-              url, headers={"User-Agent": "Mozilla/5.0"}
-          )
 
-          with urllib.request.urlopen(req, timeout=40) as r:
-              data = json.load(r)
+          # ---------- helpers ----------
+          def http(url, data=None, headers=None, retries=3, timeout=40):
+              h = dict(UA)
+              h.update(headers or {})
+              last = None
+              for i in range(retries):
+                  try:
+                      req = urllib.request.Request(url, data=data, headers=h)
+                      with urllib.request.urlopen(req, timeout=timeout) as r:
+                          return r.read()
+                  except Exception as e:
+                      last = e
+                      print(f"Attempt {i + 1} failed for {url}: {e}")
+                      time.sleep(2 * (i + 1))
+              raise last
 
-          if data.get("status") != "success":
-              raise RuntimeError(f"API did not return success: {data}")
 
-          solved = int(data["totalSolved"])
-          easy = int(data["easySolved"])
-          medium = int(data["mediumSolved"])
-          hard = int(data["hardSolved"])
-          rate = float(data["acceptanceRate"])
-          ranking = data.get("ranking", 0)
-          badges = int(data.get("data", {}).get("badgesCount", 0))
-          calendar = data.get("submissionCalendar", {})
+          def sniff_mime(raw):
+              if raw.startswith(b"\x89PNG"):
+                  return "image/png"
+              if raw.startswith(b"\xff\xd8"):
+                  return "image/jpeg"
+              if raw.startswith(b"GIF8"):
+                  return "image/gif"
+              if raw[:4] == b"RIFF" and raw[8:12] == b"WEBP":
+                  return "image/webp"
+              if raw.lstrip()[:5] in (b"<svg ", b"<?xml"):
+                  return "image/svg+xml"
+              return None
 
-          def svg_doc(content, width=900, height=260):
-              return f'''<svg xmlns="http://www.w3.org/2000/svg"
-                width="{width}" height="{height}" viewBox="0 0 {width} {height}">
-                <rect width="100%" height="100%" rx="18" fill="#0d1117"/>
-                {content}
-              </svg>'''
+
+          def svg_doc(content, width, height):
+              return (
+                  f'<svg xmlns="http://www.w3.org/2000/svg" '
+                  f'width="{width}" height="{height}" '
+                  f'viewBox="0 0 {width} {height}">'
+                  f'<rect width="100%" height="100%" rx="18" fill="#0d1117"/>'
+                  f'{content}</svg>'
+              )
+
 
           def txt(x, y, value, size=16, color="#e6edf3",
                   weight="normal", anchor="start"):
@@ -72,13 +95,89 @@ jobs:
                   f'text-anchor="{anchor}">{escape(str(value))}</text>'
               )
 
-          # Main dashboard
-          c = []
-          c.append(txt(30, 42, "LeetCode Dashboard", 25, "#f0f6fc", "bold"))
-          c.append(txt(30, 70, f"@{USER}", 15, "#8b949e"))
-          c.append(txt(30, 135, solved, 48, "#ffa116", "bold"))
-          c.append(txt(30, 163, "Problems Solved", 14, "#8b949e"))
 
+          def write_svg(name, content, width, height):
+              (OUT / name).write_text(
+                  svg_doc(content, width, height), encoding="utf-8"
+              )
+
+
+          # ---------- fetch stats ----------
+          raw = http(f"https://leetcode-stats.tashif.codes/{USER}")
+          data = json.loads(raw)
+          if data.get("status") != "success":
+              raise RuntimeError(f"API did not return success: {data}")
+
+          solved = int(data["totalSolved"])
+          easy = int(data["easySolved"])
+          medium = int(data["mediumSolved"])
+          hard = int(data["hardSolved"])
+          rate = float(data["acceptanceRate"])
+          try:
+              ranking = int(data.get("ranking") or 0)
+          except (TypeError, ValueError):
+              ranking = 0
+          api_badges = int((data.get("data") or {}).get("badgesCount") or 0)
+          calendar = data.get("submissionCalendar") or {}
+          updated = datetime.now(timezone.utc).strftime("%d %b %Y")
+
+          # ---------- fetch real badges (optional, falls back to count) ----------
+          def fetch_badges():
+              query = (
+                  "query($u:String!){matchedUser(username:$u)"
+                  "{badges{id displayName icon creationDate}}}"
+              )
+              payload = json.dumps(
+                  {"query": query, "variables": {"u": USER}}
+              ).encode()
+              body = http(
+                  "https://leetcode.com/graphql",
+                  data=payload,
+                  headers={
+                      "Content-Type": "application/json",
+                      "Referer": f"https://leetcode.com/u/{USER}/",
+                  },
+                  retries=2,
+                  timeout=25,
+              )
+              user = (json.loads(body).get("data") or {}).get("matchedUser") or {}
+              items = []
+              for b in user.get("badges") or []:
+                  icon = b.get("icon") or ""
+                  if icon.startswith("/"):
+                      icon = "https://leetcode.com" + icon
+                  uri = None
+                  if icon.startswith("http"):
+                      try:
+                          img = http(icon, retries=2, timeout=20)
+                          mime = sniff_mime(img)
+                          if mime and len(img) < 300_000:
+                              uri = (
+                                  f"data:{mime};base64,"
+                                  + base64.b64encode(img).decode()
+                              )
+                      except Exception as e:
+                          print(f"Badge icon failed: {e}")
+                  items.append(
+                      {"name": b.get("displayName") or "Badge", "uri": uri}
+                  )
+              return items
+
+          try:
+              badge_items = fetch_badges()
+          except Exception as e:
+              print(f"Badge fetch failed, using count only: {e}")
+              badge_items = []
+
+          badge_count = len(badge_items) if badge_items else api_badges
+
+          # ---------- 1. main dashboard ----------
+          c = [
+              txt(30, 42, "LeetCode Dashboard", 25, "#f0f6fc", "bold"),
+              txt(30, 70, f"@{USER}", 15, "#8b949e"),
+              txt(30, 135, solved, 48, "#ffa116", "bold"),
+              txt(30, 163, "Problems Solved", 14, "#8b949e"),
+          ]
           cards = [
               (245, "Easy", easy, "#00b8a3"),
               (405, "Medium", medium, "#ffc01e"),
@@ -92,15 +191,13 @@ jobs:
               )
               c.append(txt(x + 14, 125, label, 14, "#8b949e"))
               c.append(txt(x + 14, 163, value, 25, color, "bold"))
-
-          c.append(txt(30, 225, f"Global ranking: {ranking:,}", 14, "#8b949e"))
-          c.append(txt(870, 225, "Updated from stats API", 12, "#8b949e",
+          rank_text = f"{ranking:,}" if ranking else "N/A"
+          c.append(txt(30, 225, f"Global ranking: {rank_text}", 14, "#8b949e"))
+          c.append(txt(870, 225, f"Updated {updated} (UTC)", 12, "#8b949e",
                        anchor="end"))
-          (OUT / "dashboard.svg").write_text(
-              svg_doc("".join(c), 900, 250), encoding="utf-8"
-          )
+          write_svg("dashboard.svg", "".join(c), 900, 250)
 
-          # Statistics card
+          # ---------- 2. statistics card ----------
           c = [txt(30, 42, "LeetCode Statistics", 24, "#f0f6fc", "bold")]
           rows = [
               ("Total Solved", solved),
@@ -108,100 +205,141 @@ jobs:
               ("Medium Solved", medium),
               ("Hard Solved", hard),
               ("Acceptance Rate", f"{rate:.2f}%"),
-              ("Badges Earned", badges),
+              ("Badges Earned", badge_count),
           ]
           for i, (label, value) in enumerate(rows):
               y = 82 + i * 32
               c.append(txt(35, y, label, 16, "#8b949e"))
-              c.append(txt(440, y, value, 17, "#f0f6fc", "bold"))
-          (OUT / "leetcode_stats.svg").write_text(
-              svg_doc("".join(c), 500, 285), encoding="utf-8"
-          )
+              c.append(txt(465, y, value, 17, "#f0f6fc", "bold",
+                           anchor="end"))
+          write_svg("leetcode_stats.svg", "".join(c), 500, 285)
 
-          # Last 365 days of submission activity
+          # ---------- 3. submission heatmap ----------
           today = datetime.now(timezone.utc).date()
           start = today - timedelta(days=364)
           day_counts = {}
-          for timestamp, count in calendar.items():
-              day = datetime.fromtimestamp(
-                  int(timestamp), timezone.utc
-              ).date()
-              day_counts[day] = int(count)
+          for ts, cnt in calendar.items():
+              d = datetime.fromtimestamp(int(ts), timezone.utc).date()
+              day_counts[d] = day_counts.get(d, 0) + int(cnt)
+
+          def level_color(n):
+              if n == 0:
+                  return "#161b22"
+              if n < 3:
+                  return "#0e4429"
+              if n < 6:
+                  return "#006d32"
+              if n < 10:
+                  return "#26a641"
+              return "#39d353"
+
+          cell, gap = 11, 4
+          step = cell + gap
+          x0, y0 = 55, 90
+          first_weekday = (start.weekday() + 1) % 7  # Sunday = 0
+          n_cols = (first_weekday + 364) // 7 + 1
 
           c = [
               txt(25, 32, "Submission Activity", 22, "#f0f6fc", "bold"),
-              txt(25, 55, "Daily submissions · Last 365 days", 13, "#8b949e"),
+              txt(25, 55, "Daily submissions \u00b7 Last 365 days", 13,
+                  "#8b949e"),
           ]
-          first_weekday = (start.weekday() + 1) % 7
-          cell = 11
-          gap = 4
-          x0, y0 = 55, 80
-          total = 0
 
+          months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+          last_month, last_col = None, -10
+          for col in range(n_cols):
+              d = start + timedelta(days=max(col * 7 - first_weekday, 0))
+              if d.month != last_month and col - last_col >= 3:
+                  c.append(txt(x0 + col * step, 80, months[d.month - 1],
+                               11, "#8b949e"))
+                  last_month, last_col = d.month, col
+
+          for row, name in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
+              c.append(txt(25, y0 + row * step + 9, name, 10, "#8b949e"))
+
+          total = 0
           for offset in range(365):
-              day = start + timedelta(days=offset)
-              count = day_counts.get(day, 0)
-              total += count
+              d = start + timedelta(days=offset)
+              n = day_counts.get(d, 0)
+              total += n
               col = (first_weekday + offset) // 7
               row = (first_weekday + offset) % 7
-
-              if count == 0:
-                  color = "#161b22"
-              elif count < 3:
-                  color = "#0e4429"
-              elif count < 6:
-                  color = "#006d32"
-              elif count < 10:
-                  color = "#26a641"
-              else:
-                  color = "#39d353"
-
-              x = x0 + col * (cell + gap)
-              y = y0 + row * (cell + gap)
               c.append(
-                  f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" '
-                  f'rx="2" fill="{color}"><title>{day}: {count} submissions'
-                  f'</title></rect>'
+                  f'<rect x="{x0 + col * step}" y="{y0 + row * step}" '
+                  f'width="{cell}" height="{cell}" rx="2" '
+                  f'fill="{level_color(n)}">'
+                  f'<title>{d}: {n} submissions</title></rect>'
               )
 
-          c.append(txt(55, 151, f"{total} submissions recorded in this period",
+          fy = y0 + 6 * step + cell + 28
+          c.append(txt(25, fy, f"{total} submissions in the last year",
                        13, "#8b949e"))
-          (OUT / "heatmap.svg").write_text(
-              svg_doc("".join(c), 900, 180), encoding="utf-8"
-          )
+          lx = 900 - 25 - 5 * step - 40
+          c.append(txt(lx - 8, fy, "Less", 11, "#8b949e", anchor="end"))
+          for i, v in enumerate([0, 1, 3, 6, 10]):
+              c.append(
+                  f'<rect x="{lx + i * step}" y="{fy - 10}" '
+                  f'width="{cell}" height="{cell}" rx="2" '
+                  f'fill="{level_color(v)}"/>'
+              )
+          c.append(txt(lx + 5 * step + 4, fy, "More", 11, "#8b949e"))
+          write_svg("heatmap.svg", "".join(c), 900, fy + 25)
 
-          # Badge summary: the API supplies a count, not original badge images.
+          # ---------- 4. badges ----------
           c = [
               txt(30, 45, "LeetCode Badges", 24, "#f0f6fc", "bold"),
-              txt(30, 105, badges, 38, "#ffa116", "bold"),
-              txt(30, 137, "Badges earned on LeetCode", 15, "#8b949e"),
-              txt(30, 190, "View the original badges on your LeetCode profile.",
-                  14, "#c9d1d9"),
-              f'<a href="https://leetcode.com/u/{USER}/">'
-              f'<text x="30" y="225" fill="#58a6ff" font-family="Arial" '
-              f'font-size="16">Open official LeetCode profile</text></a>',
+              txt(870, 45, f"{badge_count} earned", 15, "#ffa116", "bold",
+                  anchor="end"),
           ]
-          (OUT / "badges.svg").write_text(
-              svg_doc("".join(c), 600, 260), encoding="utf-8"
-          )
+          if badge_items:
+              per_row, tile_w, tile_h = 6, 120, 135
+              rows_n = math.ceil(len(badge_items) / per_row)
+              for i, b in enumerate(badge_items):
+                  tx = 30 + (i % per_row) * (tile_w + 20)
+                  ty = 70 + (i // per_row) * (tile_h + 15)
+                  c.append(
+                      f'<rect x="{tx}" y="{ty}" width="{tile_w}" '
+                      f'height="{tile_h}" rx="12" fill="#161b22" '
+                      f'stroke="#30363d"/>'
+                  )
+                  if b["uri"]:
+                      c.append(
+                          f'<image x="{tx + 24}" y="{ty + 12}" width="72" '
+                          f'height="72" href="{b["uri"]}"/>'
+                      )
+                  else:
+                      c.append(txt(tx + tile_w // 2, ty + 62, "\U0001F3C5",
+                                   40, anchor="middle"))
+                  name = b["name"]
+                  if len(name) > 16:
+                      name = name[:15] + "\u2026"
+                  c.append(txt(tx + tile_w // 2, ty + 112, name, 12,
+                               "#c9d1d9", anchor="middle"))
+              height = 70 + rows_n * (tile_h + 15) + 10
+          else:
+              c.append(txt(30, 115, badge_count, 44, "#ffa116", "bold"))
+              c.append(txt(30, 148, "Badges earned on LeetCode", 15,
+                           "#8b949e"))
+              height = 180
+          write_svg("badges.svg", "".join(c), 900, height)
 
-          # Validate that all files are non-empty before committing.
-          for name in (
-              "dashboard.svg", "leetcode_stats.svg",
-              "heatmap.svg", "badges.svg"
-          ):
-              path = OUT / name
-              if not path.exists() or path.stat().st_size == 0:
-                  raise RuntimeError(f"Failed to generate {path}")
-              print(f"Generated {path}")
+          # ---------- validate ----------
+          for name in ("dashboard.svg", "leetcode_stats.svg",
+                       "heatmap.svg", "badges.svg"):
+              p = OUT / name
+              if not p.exists() or p.stat().st_size == 0:
+                  raise RuntimeError(f"Failed to generate {p}")
+              print(f"Generated {p} ({p.stat().st_size} bytes)")
 
-          print(f"Acceptance rate: {rate:.2f}%")
-          print(f"Problems solved: {solved}")
+          print(f"Solved: {solved} | Acceptance: {rate:.2f}% | "
+                f"Badges: {badge_count} | Submissions(365d): {total}")
           PY
 
-          python generate_dashboard.py
+          python "$RUNNER_TEMP/generate_dashboard.py"
 
       - name: Commit updated dashboard
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update LeetCode dashboard"
+          file_pattern: "assets/*.svg"
